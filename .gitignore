@@ -11,3 +11,4 @@ wheels/
 .env
 calculator/lorem.txt
 tests.py
+calculator/pkg/morelorem.txt
