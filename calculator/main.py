@@ -2,6 +2,7 @@ import sys
 from pkg.calculator import Calculator
 from pkg.render import render
 
+#main function for calculator
 
 def main():
     calculator = Calculator()
