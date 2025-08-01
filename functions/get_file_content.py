@@ -1,6 +1,8 @@
 import os
 from config import MAX_CHARS
 
+# function for opening and reading a file
+
 def get_file_content(working_directory, file_path):
     full_path = os.path.join(working_directory, file_path)
     abs_file_path = os.path.abspath(full_path)
