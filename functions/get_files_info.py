@@ -1,5 +1,7 @@
 import os
 
+# function for getting a file's info
+
 def get_files_info(working_directory, directory=None):
     if directory == None:
         directory = "."
