@@ -1,5 +1,7 @@
 import os
 
+#function for writing in a file
+
 def write_file(working_directory, file_path, content):
     full_path = os.path.join(working_directory, file_path)
     abs_file_path = os.path.abspath(full_path)
